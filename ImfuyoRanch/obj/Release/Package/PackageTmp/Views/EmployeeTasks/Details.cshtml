@@ -1,0 +1,49 @@
+﻿@model ImfuyoRanch.Models.EmployeeTask
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Task Details</h2>
+
+<div>
+    @*<h4>EmployeeTask</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.employee.EmployeeName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.employee.EmployeeName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tasks.ManagerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tasks.ManagerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tasks.DueDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tasks.DueDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tasks.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tasks.Status)
+        </dd>
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.EmployeeTaskId })*@ 
+    @Html.ActionLink("Back to List", "Index")
+</p>

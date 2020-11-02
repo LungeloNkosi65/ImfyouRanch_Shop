@@ -1,0 +1,88 @@
+﻿@model IEnumerable<ImfuyoRanch.Models.EmployeeTask>
+
+@{
+    ViewBag.Title = "Index";
+    var message = TempData["AlertMessage"] ?? string.Empty; }
+<script>
+    var msg = '@message';
+    if (msg)
+        alert(msg);
+</script>
+
+@if (!User.IsInRole("Employee"))
+{
+    <h2>Employee Tasks</h2>
+
+    <p>
+        @Html.ActionLink("Assign", "Create")
+    </p>
+}
+else
+{
+    <h2>My Tasks</h2>
+
+}
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.employee.EmployeeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.tasks.Description)
+        </th>
+        <th>
+            Due Date
+        </th>
+        <th>
+            Manager Email
+        </th>
+        <th>
+            Status
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.employee.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tasks.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tasks.DueDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tasks.ManagerId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.tasks.Status)
+            </td>
+            <td>
+                @if (!User.IsInRole("Employee"))
+                {
+                    @Html.ActionLink("Edit |", "Edit", new { id = item.EmployeeTaskId })
+                    @Html.ActionLink("Details", "Details", new { id = item.EmployeeTaskId })
+                    @Html.ActionLink("Done", "Done", new { id = item.EmployeeTaskId })
+                }
+                else
+                {
+                    @Html.ActionLink("Details |", "Details", new { id = item.EmployeeTaskId })
+
+                    if (item.tasks.Status != "Completed")
+                    {
+                        @Html.ActionLink("Done", "Done", new { id = item.EmployeeTaskId })
+
+                    }
+                }
+
+
+
+            </td>
+        </tr>
+    }
+
+</table>
