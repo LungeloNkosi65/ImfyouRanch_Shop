@@ -1,0 +1,10 @@
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe.config
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.pdb
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.csprojAssemblyReference.cache
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.csproj.CoreCompileInputs.cache
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.exe
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.pdb
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.MyNewService.resources
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.ProjectInstaller.resources
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\obj\Debug\MyNewService.csproj.GenerateResource.cache

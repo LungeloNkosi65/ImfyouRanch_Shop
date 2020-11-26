@@ -1,0 +1,21 @@
+﻿Installing assembly 'C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.InstallLog
+   assemblypath = C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe
+Installing service MyNewService...
+Service MyNewService has been successfully installed.
+Creating EventLog source MyNewService in log Application...
+Committing assembly 'C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.InstallLog
+   assemblypath = C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe
+Uninstalling assembly 'C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.InstallLog
+   assemblypath = C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\MyNewService\bin\Debug\MyNewService.exe
+Removing EventLog source MyNewService.
+Service MyNewService is being removed from the system...
+Service MyNewService was successfully removed from the system.

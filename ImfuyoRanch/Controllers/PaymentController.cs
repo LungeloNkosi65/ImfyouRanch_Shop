@@ -211,7 +211,7 @@ namespace ImfuyoRanch.Controllers
             var onceOffRequest = new PayFastRequest(this.payFastSettings.PassPhrase);
             order_Service.MarkOrderAsPaid(id);
 
-            SendMail(id);
+            //SendMail(id);
 
             //var order=
             // Merchant Details

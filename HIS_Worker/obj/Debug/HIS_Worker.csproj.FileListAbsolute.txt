@@ -1,0 +1,9 @@
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\obj\Debug\HIS_Worker.ProjectInstaller.resources
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\obj\Debug\HIS_Worker.csproj.GenerateResource.cache
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\obj\Debug\HIS_Worker.csproj.CoreCompileInputs.cache
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\bin\Debug\HIS_Worker.exe.config
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\bin\Debug\HIS_Worker.exe
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\bin\Debug\HIS_Worker.pdb
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\obj\Debug\HIS_Worker.exe
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\obj\Debug\HIS_Worker.pdb
+C:\Users\Lnkosi\source\repos\ImfyouRanch_Shop\HIS_Worker\obj\Debug\HIS_Worker.csprojAssemblyReference.cache
